@@ -14,6 +14,9 @@ class CRM_Aegirtests_BAO_Utils {
     ]);
 
     CRM_Core_I18n_Schema::makeMultilingual('en_US');
+
+    global $dbLocale;
+    $dbLocale = '_en_US';
   }
 
   /**
